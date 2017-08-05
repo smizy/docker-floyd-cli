@@ -19,7 +19,7 @@ $ docker run -it --rm -v $HOME/.floyd:/root -v $(pwd):/code -w /code local/floyd
 
 ## Initialize project
 ```sh
-$ froyd init <project-name>
+$ floyd init <project-name>
 ```
 
 ## Run a Jupyter notebook with Tensorflow environment on GPU
