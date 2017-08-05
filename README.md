@@ -4,7 +4,12 @@
 
 ## Build floyd client as docker image
 ```sh
-$ docker build -t local/floyd .
+$ docker build -t local/floyd --no-cache  .
+```
+
+## Create a project on floydhub UI
+```sh
+$ open https://www.floydhub.com
 ```
 
 ## Login
